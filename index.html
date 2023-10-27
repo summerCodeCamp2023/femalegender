@@ -26,9 +26,9 @@
 <header>
     <nav class="transparent z-depth-0">
         <div class="nav-wrapper">
-<a class="brand-logo">Our HERd</a>
-<a class="sidenav-trigger" data-target="mobile-demo"><i class="material-icons">menu</i></a>
-<ul class="right hide-on-med-and-down">
+            <a class="brand-logo black-text">OUR <b>HER</b>D</a>
+        <a class="sidenav-trigger" data-target="mobile-demo"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
     <li><a href="index.html">Home</a></li>
     <li><a href="Team.html">Team</a></li>
     <li><a href="solution.html">Solution</a></li>
@@ -40,7 +40,7 @@
 
 <ul class="sidenav" id="mobile-demo">
     <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
+    <li><a href="Team.html">Team</a></li>
     <li><a href="solution.html">Solution</a></li>
     <li><a href="contact.html">Contact</a></li>
  </ul>
@@ -106,32 +106,36 @@
 
 <footer class="page-footer black">
     <div class="container">
-       <div class="row">
-            <div class="col s12 l4">
-                <h5>About The Female Gender</h5>
-                <p style="text-align: justify !important;">The Female Gender is a website created by young girls, to reduce the high rate of gender inequality.</p>
-            </div>
-            <div class="col s12 l3 offset-l1">
-                <h5>Connect</h5>
-                <a class="icon" href="#"><i class="fab fa-facebook-f">Facebook</i></a>
-                <a class="icon" href="#"><i class="fab fa-twitter">Twitter</i></a>
-                <a class="icon" href="#"><i class="fab fa-linkedin">LinkedIn</i></a>
-                <a class="icon" href="#"><i class="fab fa-instagram">Instagram</i></a>
-            </div>
-            <div class="col s12 l4">
-                <h5>Contact</h5>
-                <p>55, Moleye Street, Alagomeji,<br>Yaba, <br>Lagos.</p>
-            </div>
-       </div>
-    </div>
-    <div class="footer-copyright black">
-        <div class="container">
-                <p class="center-align">&copy; 2023. All rights reserved</p>
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Objective</h5>
+          <p class="grey-text text-lighten-4">The Female Gender is a website created by young girls, to reduce the high rate of gender inequality.</p>
         </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-</footer> 
-            
-<script src="assets/js/jquery.js"></script>
+    <div class="footer-copyright">
 
+      © 2023 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.parallax').parallax();
+    });
+   </script>
 </body>
 </html>
